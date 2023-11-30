@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Title from "./components/Title";
-import BackToMainPageButton from "./components/BackToMainPageButton";
+import Title from "../components/Title";
+import BackToMainPageButton from "../components/BackToMainPageButton";
 
 export default function EsignatureApp() {
   const [name, setName] = useState("Your Signature");
